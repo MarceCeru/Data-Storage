@@ -1,0 +1,109 @@
+.section-two {
+    width: 325px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    padding-top: 35px;
+    background-color: var(--Blue-850);
+
+    p {
+        color: var(--Blue-200);
+        width: 235px;
+        font-weight: lighter;
+        font-size: 14.25px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .used {
+            font-weight: 700;
+
+
+            .number-one {
+                font-size: 12px;
+            }
+
+            .number-five {
+                top: 1px;
+                position: relative;
+            }
+        }
+
+        @media(min-width: 1050px) {
+            margin-left: 40px;
+        }
+
+    }
+
+    .progress-bar {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        height: 20px;
+        background-color: var(--Blue-950);
+        border-radius: 9px;
+        display: flex;
+
+        .progress-bar-used {
+            width: 190px;
+            height: 15px;
+            background-image: var(--mi-gradiente);
+            border-radius: 7px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 1px;
+            display: flex;
+
+            @media(min-width: 1050px) {
+                width: 340px;
+            }
+
+            .progress-bar-point {
+                width: 12px;
+                height: 10px;
+                background-color: var(--Blue-200);
+                border-radius: 50%;
+                margin-left: 176px;
+                margin-top: auto;
+                margin-bottom: auto;
+
+                @media(min-width: 1050px) {
+                    margin-left: 326px;
+                }
+            }
+        }
+
+        @media(min-width: 1050px) {
+            width: 460px;
+        }
+
+    }
+
+    .ranges {
+        display: flex;
+        justify-content: space-between;
+        color: var(--Blue-200);
+        margin-top: 12px;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+
+        @media(min-width: 1050px){
+            width: 460px;
+        }
+    }
+
+
+    @media(min-width: 1050px) {
+        width: 540px;
+        margin-right: 0;
+        margin-top: 39px;
+    }
+
+
+
+
+}

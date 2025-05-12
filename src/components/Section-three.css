@@ -1,0 +1,43 @@
+.section-three {
+    border: 1px solid var(--Blue-200);
+    width: 180px;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -35px;
+    position: relative;
+
+    .amount {
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--Blue-950);
+
+        .number-one {
+            font-size: 33px;
+        }
+
+        .number-five {
+            top: 4px;
+            position: relative;
+        }
+    }
+
+    .detail {
+        color: var(--Grayish-Blue);
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+
+@media(min-width: 1050px) {
+     top: -205px;
+     left: 340px;
+    }
+}
